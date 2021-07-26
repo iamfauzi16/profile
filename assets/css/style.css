@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.name {
+    text-align: center;
+}
+/* motto */
+.motto h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.motto h5 {
+    text-align: center;
+}
+/* end */
+
+img.rounded {
+    width: 100%;
+}
+
+#sub-content  img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.child {
+    text-align: center;
+
+}
+
+.hobby {
+    text-align: center;
+}
+
+
+
+@media (min-width: 992px) {
+    #content {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .name {
+        text-align: start;
+    }
+    
+    .motto h2 {
+        text-align: start;
+        font-weight: bold;
+    }
+
+    .motto h5 {
+        text-align: start;
+    }
+
+    #sub-content  img{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    .child {
+        text-align: start;
+    }
+
+    .hobby {
+        text-align: start;
+    }
+
+
+}
+
+    
